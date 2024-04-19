@@ -19,7 +19,7 @@ This script is not PRODUCTION ready code. Do not run this script without first v
 3. Update the Environment variable ('sandbox' / 'production') that you want to run the script against('sandbox' - Sepolia, 'production' - Ethereum).
 4. Add the PRIVATE_KEY of the wallet that you want to transfer from - WARNING do not share this variable with anyone
 5. Validate the amount of ETH you want to send denominated in wei (line 43) - remember 1000000000000000000 = 1 ETH 
-6. Validate the addresses you want ETH to be sent to (transfer.csv)
+6. Validate the addresses you want ETH to be sent to. Put each address on a newline (transfer.csv)
 7. Begin the transfer by running the command `npm run transfer`
 8. Any transfer receipients that are not registered with Immutable X will be listed in unregistered.csv. No ETH will have been transferred to these addresses.
 
