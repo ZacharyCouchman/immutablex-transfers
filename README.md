@@ -8,7 +8,7 @@ This script is not PRODUCTION ready code. Do not run this script without first v
 
 ## Prerequisites
 
-1. Make sure you have [node]('https://nodejs.org/en/) installed. Use version 18.x
+1. Make sure you have version 18.x of [node](https://nodejs.org/en/download) installed.
 2. Install typescript with the command `npm install -g typescript`
 3. Install the @imtbl/sdk with `npm install`
 
